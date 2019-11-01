@@ -6,7 +6,7 @@ npm uninstall vue-cli -g 或 yarn global remove vue-cli
 
 安装新版本（需要 Node.js 8.9 或更高版本）
 npm install -g @vue/cli
-# OR
+OR
 yarn global add @vue/cli
 
 2.创建一个项目
