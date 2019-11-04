@@ -15,9 +15,12 @@ yarn global add @vue/cli
 
 创建一个新项目：
 vue create 项目名
+
   遇到的问题：
   Vue packages version mismatch
+  
   解决方案：
+  
   1.vue和vue-template-compiler的版本配置要一致              
   2.npm install @vue2.6.10(2.6.10为vue-template-compiler的版本号)
 
