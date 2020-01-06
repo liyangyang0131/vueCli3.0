@@ -28,7 +28,17 @@ const routes = [
     path:'/Step',
     name:'Step',
     component: ()=>import('@/views/Step.vue')
-  }
+  },
+  {
+    path:'/IView',
+    name:'IView',
+    component: ()=>import('@/views/IView.vue')
+  },
+  {
+    path:'/ElementUI',
+    name:'ElementUI',
+    component: ()=>import('@/views/ElementUI.vue')
+  },
 ]
 
 const router = new VueRouter({

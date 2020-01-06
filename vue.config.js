@@ -53,4 +53,15 @@ module.exports = {
             ]
         }
     },
+    //解决报错:
+    // Inline JavaScript is not enabled. Is it set in your options?       in D:\lyy\github\vueCli3.0\node_modules\view-design\src\styles\color\bezierEasing.less (line 110, column 0)
+    /* 1.降低less的版本号
+    2.javascriptEnabled: true */
+    css:{
+        loaderOptions:{
+            less:{
+                javascriptEnabled: true  
+            }
+        }
+    }
 };

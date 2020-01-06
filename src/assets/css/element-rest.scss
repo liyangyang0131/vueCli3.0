@@ -1,0 +1,7 @@
+@import './element-variables.scss';
+
+.el-form-item--mini.el-form-item,
+.el-form-item--small.el-form-item,
+.el-form-item{
+    margin-bottom:$form-item-margin-bottom;
+}
