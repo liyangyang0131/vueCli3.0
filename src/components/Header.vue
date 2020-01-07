@@ -42,17 +42,16 @@ export default {
         top:0;
         left:0;
         z-index:9999;
-        height:60px;
         display:flex;
-        padding:10px $left-right-padding;
+        padding:5px $left-right-padding;
         background-color:#edf6ff;
         border:1px solid #e8eaec;
         .left{
-            width:200px;
-            padding-right:100px;
+            width:80px;
+            // padding-right:100px;
             .logo{
-                width:60px;
-                height:60px;
+                width:40px;
+                height:40px;
                 background:url('../assets/images/logo.png') center center no-repeat;
                 background-size: cover;
             }
@@ -64,7 +63,7 @@ export default {
                 width:100%;
                 text-align: center;
                 font-size:18px;
-                line-height: 60px;
+                line-height: 40px;
                 li{
                     // flex:1;
                     width:10%;
@@ -73,7 +72,7 @@ export default {
                     cursor: pointer;
                 }
                 .router-link-active{
-                    border-bottom:3px solid #ff9370;
+                    border-bottom:2px solid #ff9370;
                 }
             }  
             

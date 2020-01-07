@@ -1,12 +1,12 @@
-/* 改变主题色变量 */
-$--color-primary: red;
-
 /* 改变 icon 字体路径变量，必需 */
 $--font-path: '~element-ui/lib/theme-chalk/fonts';
 
-
+/* 改变主题色变量 */
+$--color-primary: red;
 
 //自定义变量
 // Form
 $form-item-margin-bottom:2px;
 
+
+@import "~element-ui/packages/theme-chalk/src/index";

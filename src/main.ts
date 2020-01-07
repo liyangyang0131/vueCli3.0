@@ -11,7 +11,7 @@ import './assets/css/iview-variables.less'
 
 // element-Ui
 import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
+import './assets/css/element-variables.scss'
 
 
 Vue.use(ViewUI);

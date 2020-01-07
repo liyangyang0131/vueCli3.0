@@ -27,23 +27,23 @@ export default {
   .step{
     text-align: center;
     color:#fff;
-    line-height:40px;
+    line-height:30px;
     font-weight: bold;
     margin-bottom:30px;
     .item{
       float:left;
-      width:40px;
-      height:40px;
+      width:30px;
+      height:30px;
       background:blue;
       border-radius:50%;
-      margin-right:10px;
+      margin-right:8px;
     }
     .triangle{
       margin-top:10px;
       float:left;
       width:0;
       height:0;
-      border-width:10px;
+      border-width:6px;
       border-style:solid;
       border-color:transparent transparent transparent #ccc;
     }
