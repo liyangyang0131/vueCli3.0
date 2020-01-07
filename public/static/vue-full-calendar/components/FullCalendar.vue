@@ -2,12 +2,10 @@
     <div ref="calendar" id="calendar"></div>
 </template>
 
-</script>
-
 <script>
     import defaultsDeep from 'lodash.defaultsdeep'
     import $ from 'jquery'
-    import '../../fullcalendar/dist/fullcalendar.js'
+    import '../../fullcalendar/dist/fullcalendar'
     
     export default {
         props: {

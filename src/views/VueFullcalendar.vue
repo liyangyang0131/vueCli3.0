@@ -12,9 +12,9 @@
 </template>
 
 <script lang="ts">
-import FullCalendar from "public/static/vue-full-calendar/components/FullCalendar";
-import moment from "moment";
+import FullCalendar from "public/static/vue-full-calendar/components/FullCalendar.vue";
 import "public/static/fullcalendar/dist/fullcalendar.css";
+import moment from "moment";
 import $ from 'jquery'
 
 export default {
@@ -138,7 +138,7 @@ export default {
 }
 </style>
 <style lang="scss">
-  .vueFullcalendar{
+  .vueFullcalendar{s
     .fc-button{
       border:unset;
       background:unset;

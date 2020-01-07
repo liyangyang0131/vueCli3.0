@@ -19,11 +19,11 @@ const routes = [
     name:'VueFullcalendar',
     component: ()=>import('@/views/VueFullcalendar.vue')
   },
-  // {
-  //   path:'/Fullcalendar',
-  //   name:'Fullcalendar',
-  //   component: ()=>import('@/views/Fullcalendar.vue')
-  // },
+  /* {
+    path:'/Fullcalendar',
+    name:'Fullcalendar',
+    component: ()=>import('@/views/Fullcalendar.vue')
+  }, */
   {
     path:'/Step',
     name:'Step',

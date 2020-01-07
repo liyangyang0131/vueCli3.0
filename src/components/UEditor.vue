@@ -4,7 +4,7 @@
   </section>
 </template>
 
-<script lang="ts">
+<script>
 import "public/static/ueditor/ueditor.config.js";
 import "public/static/ueditor/ueditor.all.js";
 import "public/static/ueditor/lang/zh-cn/zh-cn.js";

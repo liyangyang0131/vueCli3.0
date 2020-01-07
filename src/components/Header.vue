@@ -20,8 +20,8 @@ export default {
         return{
             menus:[
                 {name:'UE',title:'百度富文本',href:'/UE'},
-                {name:'VueFullcalendar',title:'事件日历插件',href:'/VueFullcalendar'},
-                {name:'Fullcalendar',title:'fullcalendar',href:'/Fullcalendar'},
+                {name:'VueFullcalendar',title:'VueFullcalendar',href:'/VueFullcalendar'},
+                {name:'Fullcalendar',title:'jQueryFullcalendar',href:'/Fullcalendar'},
                 {name:'Step',title:'Step',href:'/Step'},
                 {name:'iView',title:'iView',href:'/IView'},
                 {name:'ElementUI',title:'ElementUI',href:'/ElementUI'}
